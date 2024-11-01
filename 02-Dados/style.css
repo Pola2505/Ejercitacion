@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(194, 199, 206);
+}
+
+.dados{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados .uno, .dados .dos, .dados .tres, .dados .cuatro, .dados .cinco, .dados .seis{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.dados .uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados .uno div, .dados .dos div, .dados .tres div, .dados .cuatro div{ 
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.dados .dos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados .dos .dos-2{
+    align-self: flex-end;
+    margin: 15px;
+}
+
+.dados .dos .dos-1{
+    margin: 15px;
+}
+
+.dados .tres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dados .tres .tres-1{
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.dados .tres .tres-3{
+    align-self:  flex-start;
+    margin: 10px;
+}
+
+.dados .cuatro {
+    display: flex;
+
+}
+
+.cuatro-section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cuatro-1{
+    margin: 15px;
+}
+
+.cuatro-2{
+    align-self:flex-end;
+    margin: 20px;
+}
+
+.cuatro-section-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cuatro-3{
+    align-self: flex-start;
+}
+
+.cuatro-4{
+    align-self: flex-end;
+}

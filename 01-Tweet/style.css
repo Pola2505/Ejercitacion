@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(28, 171, 237);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    height: 280px;
+    width: 650px;
+    background-color: white;
+    margin-top: 50%;
+}
+
+.contenedor-header{
+    display: flex;
+    padding: 20px;
+}
+
+.contenedor-header div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-header div h1{
+    margin: 0;
+    padding: 3px;
+}
+
+.contenedor-header div h2{
+    margin: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.contenedor-tweet p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.contenedor-tweet span{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 20px;
+}
+
+.contenedor-reactions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-reactions .reactions{
+    display: flex;
+}
+
+.contenedor-reactions .reactions span{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 20px;
+}
+
+.contenedor-reactions .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedor-reactions .links a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contenedor-reactions .links a:visited{
+    color: black;
+}
