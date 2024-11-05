@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(230, 230, 230);
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    width: 330px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.rating-container{
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.rating-container span{
+    font-size: 10px;
+}
+
+.bi-star-fill{
+    color: rgb(237, 207, 10);
+}
+
+p{
+    font-size: 10px;
+}
+
+.range-container{
+    display: flex;
+    margin: 10px;
+}
+
+.range{
+    background-color: rgb(233, 233, 233);
+    width: 150px;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0 5px;
+}
+
+.text-stars{
+    font-size: 10px;
+    color: rgb(41, 41, 240);
+}
+
+.percentage{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 41, 240);
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+.range .one{
+    background-color: rgb(237, 207, 10);
+    width: 84%;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.range .two{
+    background-color: rgb(237, 207, 10);
+    width: 9%;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.range .three{
+    background-color: rgb(237, 207, 10);
+    width: 4%;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.range .four{
+    background-color: rgb(237, 207, 10);
+    width: 2%;
+    height: 15px;
+    border-radius: 20px;
+}
+
+.range .five{
+    background-color: rgb(237, 207, 10);
+    width: 1%;
+    height: 15px;
+    border-radius: 20px;
+}
