@@ -1,0 +1,78 @@
+body{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+}
+
+section{
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.close{
+    align-self: self-end;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+section h2{
+    font-size: 17px;
+}
+
+section .text-header{
+    font-size: 13px;
+    margin: 0 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+section .container{
+    display: flex;
+}
+
+section .container .social-media{
+    margin: 20px 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.facebook{
+    background-color: rgb(21, 21, 157);
+}
+
+.twitter{
+    background-color: rgb(12, 188, 188);
+}
+
+.reddit{
+    background-color: black;
+}
+
+.nr-shares{
+    font-weight: 600;
+}
+
+.text-shares{
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    color: orange;
+    background-color: white;
+    font-size: 12px;
+}
+
+.bi{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
