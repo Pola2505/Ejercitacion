@@ -1,0 +1,102 @@
+.cubo{
+    width: 30px;
+    height: 35px;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    border: 1px solid black;
+}
+
+.primer-linea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.segunda-linea, .tercer-linea{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.derecha{
+    display: flex;
+}
+
+.izquierda{
+    display: flex;
+}
+
+.linea{
+    display: flex;
+    
+}
+
+.seccion-chica{
+    margin-top: 50px;
+}
+
+.linea-abajo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rojo{
+    background-color: rgb(238, 72, 72);
+}
+
+.naraja{
+    background-color: rgb(243, 187, 85);
+}
+
+.amarillo{
+    background-color: rgb(237, 237, 151);
+}
+
+.verde{
+    background-color: rgb(115, 185, 115);
+}
+
+.aqua{
+    background-color: rgb(23, 177, 219);
+}
+
+.marino{
+    background-color: rgb(116, 225, 201);
+}
+
+.gris{
+    background-color: rgb(152, 152, 152);
+}
+
+.violeta{
+    background-color: rgb(116, 74, 145);
+}
+
+.rosa{
+    background-color: rgb(192, 124, 195);
+}
+
+.coral{
+    background-color: rgb(194, 107, 122);
+}
+.blanco{
+    background-color: white;
+}
+@media (min-width: 768px) {
+    .cubo{
+        width: 60px;
+        height: 70px;
+    }
+
+    .seccion-grande{
+        margin: 0 100px;
+    }
+
+    .seccion-chica{
+        margin: 50px 100px;
+    }
+}
